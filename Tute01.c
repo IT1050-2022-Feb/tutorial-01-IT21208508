@@ -9,9 +9,10 @@ int main() {
   float avg;
   printf("Enter subject 1 marks:");
   scanf("%d",&mark1);
-  printf("Enter subject 2 marks:");
+  printf("\nEnter subject 2 marks:");
   scanf("%d",&mark2);
-  
+  avg=(mark1+mark2)/2;
+  printf("\nAverage is %.2f",avg);
   
   return 0;
 }
